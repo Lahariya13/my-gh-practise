@@ -10,4 +10,4 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - name: Say goodbye
-              run: echo "goodbye all!!"          
+              run: echo "goodbye folks!"          
