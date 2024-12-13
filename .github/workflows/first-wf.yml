@@ -10,4 +10,6 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - name: Say goodbye
-              run: echo "goodbye folks!"          
+              run: |
+                echo "goodbye folks !" 
+                echo "Workflow was triggered by a ${{ github.event_name }}"
